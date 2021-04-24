@@ -7,11 +7,13 @@
   font-size: 26px;
   line-height: 1.19;
   color: var(--accent-color);
-}
-.logo--black {
-  color: var(--primary-text-color);
-}
-/* logo footer */
-.logo--white {
-  color: var(--hero-text-color);
+
+  /* logo heder */
+  &--black {
+    color: var(--primary-text-color);
+  }
+  /* logo footer */
+  &--white {
+    color: var(--hero-text-color);
+  }
 }

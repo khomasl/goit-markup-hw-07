@@ -79,8 +79,8 @@ ul {
   display: flex; /*для всех списков делает флех*/
   list-style: none;
   padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
+  // margin-top: 0;
+  // margin-bottom: 0;
 }
 /*для всех списков делает маржин элемента*/
 .list__item:not(:last-child) {

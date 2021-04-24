@@ -11,7 +11,7 @@
 .client-icons__item {
   flex-basis: calc((100% - 30px * (var(--grid-item) - 1)) / var(--grid-item));
 }
-.client-icons__item + .client-icons__item {
+.client-icons__item + & {
   margin-left: 30px;
 }
 .client-icons__link {
