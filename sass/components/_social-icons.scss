@@ -3,13 +3,12 @@
   display: inline-flex;
   padding-top: 16px;
 }
-.social-icons__item + & {
-  margin-left: 10px;
+.social-icons__item {
+  & + .social-icons__item {
+    margin-left: 10px;
+  }
 }
 .social-icons__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;

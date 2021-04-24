@@ -90,4 +90,15 @@ ul {
 .link {
   text-decoration: none;
   color: inherit;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
